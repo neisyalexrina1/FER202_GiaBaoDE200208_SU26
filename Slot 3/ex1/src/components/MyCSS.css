@@ -1,0 +1,11 @@
+.hello {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.react {
+  color: blue;
+  font-weight: bold;
+}
