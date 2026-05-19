@@ -14,7 +14,7 @@ function People() {
     { id: 10, name: 'James Lee', age: 15 },
   ];
 
-  const teenager = people.find(person => person.age >= 13 && person.age <= 19);
+  const teenager = people.find(person => person.age >= 10 && person.age < 16);
 
   return (
     <div>
