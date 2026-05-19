@@ -9,3 +9,29 @@
   color: blue;
   font-weight: bold;
 }
+
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.people-table th, .people-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.people-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.people-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.people-table tr:hover {
+  background-color: #f1f1f1;
+}

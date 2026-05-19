@@ -1,4 +1,5 @@
 import React from 'react';
+import './MyCSS.css';
 
 function People() {
   const people = [
@@ -14,24 +15,43 @@ function People() {
     { id: 10, name: 'James Lee', age: 15 },
   ];
 
-  const teenager = people.find(person => person.age >= 10 && person.age < 16);
+  // Sort people by age, then by name
+  const sortedPeople = [...people].sort((a, b) => {
+    if (a.age === b.age) {
+      return a.name.localeCompare(b.name);
+    }
+    return a.age - b.age;
+  });
+
+  const teenager = sortedPeople.find(person => person.age >= 10 && person.age <= 16);
 
   return (
     <div>
       <h2>People List</h2>
-      <ul>
-        {people.map((person, index) => (
-          <li key={person.id}>
-            {index + 1}. {person.name} - {person.age} years old
-          </li>
-        ))}
-      </ul>
+      <table className="people-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sortedPeople.map(person => (
+            <tr key={person.id}>
+              <td>{person.id}</td>
+              <td>{person.name}</td>
+              <td>{person.age}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
       <div>
         <h3>First Teenager:</h3>
         {teenager ? (
           <p>{teenager.name} - {teenager.age} years old</p>
         ) : (
-          <p>No result</p>
+          <p>No teenager found</p>
         )}
       </div>
     </div>
