@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Administrator"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van A"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "mgr123",
+      "role": "User",
+      "fullName": "Tran Thi B"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Casual"
+    },
+    {
+      "id": "2",
+      "name": "FastFood"
+    },
+    {
+      "id": "3",
+      "name": "Fine Dining"
+    },
+    {
+      "id": "4",
+      "name": "Buffet"
+    },
+    {
+      "id": "5",
+      "name": "Pizza"
+    },
+    {
+      "id": "6",
+      "name": "Seafood"
+    },
+    {
+      "name": "Dessert",
+      "id": "zZq432txx-o"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "BBQ Restaurant",
+      "categoryId": 1,
+      "owner": "Hoang",
+      "address": "Hang Bai",
+      "priceMin": 50000,
+      "priceMax": 200000,
+      "openDate": "15/03/2018"
+    },
+    {
+      "id": "2",
+      "name": "Pho 24",
+      "categoryId": 2,
+      "owner": "Minh",
+      "address": "Hoan Kiem",
+      "priceMin": 50000,
+      "priceMax": 100000,
+      "openDate": "01/01/2020"
+    },
+    {
+      "id": "3",
+      "name": "The Steakhouse",
+      "categoryId": 3,
+      "owner": "Lan",
+      "address": "Ba Dinh",
+      "priceMin": 300000,
+      "priceMax": 1000000,
+      "openDate": "20/07/2019"
+    },
+    {
+      "id": "4",
+      "name": "Pizza Hut HN",
+      "categoryId": 2,
+      "owner": "Tuan",
+      "address": "Cau Giay",
+      "priceMin": 80000,
+      "priceMax": 250000,
+      "openDate": "10/11/2021"
+    },
+    {
+      "id": "5",
+      "name": "Bun Bo Hue Ngon",
+      "categoryId": 1,
+      "owner": "Nga",
+      "address": "Dong Da",
+      "priceMin": 30000,
+      "priceMax": 60000,
+      "openDate": "05/06/2017"
+    },
+    {
+      "id": "6",
+      "name": "Sushi Sasa",
+      "categoryId": 3,
+      "owner": "Duc",
+      "address": "Tay Ho",
+      "priceMin": 200000,
+      "priceMax": 800000,
+      "openDate": "14/02/2022"
+    },
+    {
+      "name": "Q Birthday Cake",
+      "categoryId": 1,
+      "owner": "NDQ",
+      "address": "Da Nang",
+      "priceMin": 1000,
+      "priceMax": 10000,
+      "openDate": "30/06/2026",
+      "id": "dKxOqXWaXao"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
