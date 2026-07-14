@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin",
+      "fullName": "Car Rental Manager",
+      "email": "admin@carrental.com"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "user123",
+      "role": "User",
+      "fullName": "Nguyen Van A",
+      "email": "user1@carrental.com"
+    },
+    {
+      "id": "3",
+      "username": "staff1",
+      "password": "staff123",
+      "role": "User",
+      "fullName": "Tran Thi B",
+      "email": "staff1@carrental.com"
+    }
+  ],
+  "carTypes": [
+    {
+      "id": "1",
+      "name": "Economy"
+    },
+    {
+      "id": "2",
+      "name": "SUV"
+    },
+    {
+      "id": "3",
+      "name": "Luxury"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "Vios",
+      "carTypeId": 1,
+      "brand": "Toyota",
+      "transmission": "Automatic",
+      "priceWeekday": 800000,
+      "priceWeekend": 1200000,
+      "lastServiced": "15/03/2022"
+    },
+    {
+      "id": "2",
+      "name": "City",
+      "carTypeId": 1,
+      "brand": "Honda",
+      "transmission": "Manual",
+      "priceWeekday": 800000,
+      "priceWeekend": 1200000,
+      "lastServiced": "15/03/2022"
+    },
+    {
+      "id": "3",
+      "name": "Accent",
+      "carTypeId": 1,
+      "brand": "Hyundai",
+      "transmission": "Automatic",
+      "priceWeekday": 850000,
+      "priceWeekend": 1250000,
+      "lastServiced": "20/06/2023"
+    },
+    {
+      "id": "4",
+      "name": "Soluto",
+      "carTypeId": 1,
+      "brand": "Kia",
+      "transmission": "Automatic",
+      "priceWeekday": 850000,
+      "priceWeekend": 1250000,
+      "lastServiced": "20/06/2023"
+    },
+    {
+      "id": "5",
+      "name": "Mazda2",
+      "carTypeId": 1,
+      "brand": "Mazda",
+      "transmission": "Manual",
+      "priceWeekday": 800000,
+      "priceWeekend": 1200000,
+      "lastServiced": "15/03/2022"
+    },
+    {
+      "id": "6",
+      "name": "Everest",
+      "carTypeId": 2,
+      "brand": "Ford",
+      "transmission": "Manual",
+      "priceWeekday": 1500000,
+      "priceWeekend": 2000000,
+      "lastServiced": "10/01/2024"
+    },
+    {
+      "id": "7",
+      "name": "Santa Fe",
+      "carTypeId": 2,
+      "brand": "Hyundai",
+      "transmission": "Automatic",
+      "priceWeekday": 1400000,
+      "priceWeekend": 1900000,
+      "lastServiced": "10/01/2024"
+    },
+    {
+      "id": "8",
+      "name": "Xpander Cross",
+      "carTypeId": 2,
+      "brand": "Mitsubishi",
+      "transmission": "Manual",
+      "priceWeekday": 1600000,
+      "priceWeekend": 2100000,
+      "lastServiced": "05/08/2023"
+    },
+    {
+      "id": "9",
+      "name": "CR-V",
+      "carTypeId": 2,
+      "brand": "Honda",
+      "transmission": "Automatic",
+      "priceWeekday": 1550000,
+      "priceWeekend": 2050000,
+      "lastServiced": "05/08/2023"
+    },
+    {
+      "id": "10",
+      "name": "Fortuner",
+      "carTypeId": 2,
+      "brand": "Toyota",
+      "transmission": "Manual",
+      "priceWeekday": 1450000,
+      "priceWeekend": 1950000,
+      "lastServiced": "12/12/2023"
+    },
+    {
+      "id": "11",
+      "name": "C-Class",
+      "carTypeId": 3,
+      "brand": "Mercedes-Benz",
+      "transmission": "Automatic",
+      "priceWeekday": 3000000,
+      "priceWeekend": 4500000,
+      "lastServiced": "01/03/2024"
+    },
+    {
+      "id": "12",
+      "name": "3 Series",
+      "carTypeId": 3,
+      "brand": "BMW",
+      "transmission": "Automatic",
+      "priceWeekday": 3200000,
+      "priceWeekend": 4700000,
+      "lastServiced": "01/03/2024"
+    },
+    {
+      "id": "13",
+      "name": "A6",
+      "carTypeId": 3,
+      "brand": "Audi",
+      "transmission": "Automatic",
+      "priceWeekday": 3500000,
+      "priceWeekend": 5000000,
+      "lastServiced": "15/05/2024"
+    },
+    {
+      "id": "14",
+      "name": "ES 300h",
+      "carTypeId": 3,
+      "brand": "Lexus",
+      "transmission": "Automatic",
+      "priceWeekday": 3300000,
+      "priceWeekend": 4800000,
+      "lastServiced": "15/05/2024"
+    },
+    {
+      "id": "15",
+      "name": "Cayenne",
+      "carTypeId": 3,
+      "brand": "Porsche",
+      "transmission": "Automatic",
+      "priceWeekday": 4000000,
+      "priceWeekend": 5500000,
+      "lastServiced": "20/07/2024"
+    }
+  ]
+}
